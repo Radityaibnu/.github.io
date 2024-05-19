@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+    line-height: 60px;
+}
+header{
+    background-color:rgb(93, 205, 236);  
+    margin-left: -10px;  
+    margin-right: -10px;
+    margin-top: -10px;
+    margin-bottom: -15px;
+    margin-top: -10px;
+}
+body{
+    background-color:rgb(255, 255, 255);
+}
+.container{
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white;
+}
+.profile{
+    border-radius: 50px;
+    box-shadow: 0px 0px 2px;
+    width: 50px;
+    height:50px;
+    margin-left: 20px;
+    background-color: white;
+    position: fixed;
+    margin-top: 15px;
+    margin-top:5px;
+}
+.profil{
+    margin-top: 10px;
+    padding-bottom: 15px;
+    margin-left:60px;
+}
+.title{
+    margin-top: 10px;
+    padding-top: -10px;
+    margin-left: 40px;
+}
+@media(max-width){
+    .container{
+     text-align: center;
+    }
+}
+input{
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+.waktu{
+        border-radius: 10px;
+        box-shadow: 0px 0px 2px;
+        margin-left: 100px;
+        margin-right: 100px;
+}
+.daftar{
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h3{
+    margin-left: 20px;
+}
+@media (max-width : 500px){
+    .profil{
+        margin-left: 0px
+    }
+    .title{
+        margin-right: 20px;
+    }
+}
+
+
+
